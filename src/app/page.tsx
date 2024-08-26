@@ -70,7 +70,7 @@ export default function RegisterForm() {
     if (buyShoes) total += 600;
     if (buyCap) total += 400;
 
-    if (buyBottle && buyShoes && buyCap) total = total * 0.8;
+    if (buyBottle && buyShoes && buyCap) total *= 0.8;
 
     return total;
   };
