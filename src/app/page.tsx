@@ -82,6 +82,7 @@ export default function RegisterForm() {
     let lnameOk = true;
     let planOk = true;
     let genderOk = true;
+
     if (fname === "") {
       fnameOk = false;
       setFnameError(true);
